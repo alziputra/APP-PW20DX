@@ -1,0 +1,32 @@
+:root {
+	--putih: #FFF;
+	--pink: #F8C4B4;
+	--kosong: 0;
+	--padding_custom: 10px;
+	--border_custom: 1px solid #333;
+
+
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: var(--padding_custom);
+	border: var(--border_custom);
+}
+
+.bg_putih {
+	background: var(--putih);
+}
+
+.bg_pink {
+	background: var(--pink);
+}
+
+.text-center {
+	text-align: center;
+}
